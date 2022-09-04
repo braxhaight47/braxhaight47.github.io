@@ -19,6 +19,10 @@ h1 {
     color: rgb(0, 102, 153);
 }
 
+p {
+    color: rgb(0, 102, 153);
+}
+
 /* Applies to all elements with <... class="someclass"> specified. */
 .someclass { color: red; }
 
