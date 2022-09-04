@@ -14,7 +14,8 @@ h1 {
   margin-top: 5px;
 }
 
-p {
+/* Applies using id="pID" */
+#pID {
     color: rgb(0, 102, 153);
 }
 
