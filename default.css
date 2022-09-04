@@ -33,8 +33,7 @@ h3 {
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: blue; }
 
-<style>
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -43,8 +42,3 @@ h3 {
   color: rgb(0, 102, 153);
   text-align: center;
 }
-</style>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
