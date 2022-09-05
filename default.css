@@ -12,16 +12,14 @@ h1 {
   font-size: 35px;
   font-weight: normal;
   margin-top: 5px;
+  color: blue;
+}
+
+h2 {
+    color: blue;
 }
 
 /* Applies using id="pID" */
-#pID {
-    color: rgb(0, 102, 153);
-}
-
-p {
-    color: rgb(0, 102, 153);
-}
 
 h3 {
     color: blue;
@@ -31,9 +29,18 @@ h4 {
     color: white;
 }
 
-
-/* Applies to all elements with <... class="someclass"> specified. */
-.#someColor { color: white; }
+h5 {
+    color: blue;
+}
+p {
+    color: rgb(0, 102, 153);
+}
+li {
+    color: rgb(0, 102, 153);
+}
+figcaption {
+    color: rgb(0, 102, 153);
+}
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: blue; }
