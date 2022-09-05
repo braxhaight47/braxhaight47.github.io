@@ -27,6 +27,11 @@ h3 {
     color: blue;
 }
 
+h4 {
+    color: white;
+}
+
+
 /* Applies to all elements with <... class="someclass"> specified. */
 .#someColor { color: white; }
 
