@@ -28,7 +28,7 @@ h3 {
 }
 
 /* Applies to all elements with <... class="someclass"> specified. */
-.someclass { color: red; }
+.someclass { color: white; }
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: blue; }
@@ -42,3 +42,6 @@ footer {
   color: white;
   text-align: center;
 }
+<div class="footer">
+  <p>© 2022 Blissful Hippo</p>
+</div>
