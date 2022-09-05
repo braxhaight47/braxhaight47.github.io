@@ -35,12 +35,6 @@ h5 {
 p {
     color: rgb(0, 102, 153);
 }
-li {
-    color: rgb(0, 102, 153);
-}
-figcaption {
-    color: rgb(0, 102, 153);
-}
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: blue; }
