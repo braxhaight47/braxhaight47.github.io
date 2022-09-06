@@ -1,6 +1,7 @@
 /* Applies to the entire body of the HTML document (except where overridden by more specific
 selectors). */
 body {
+  text-align: center;
   margin: 25px;
   background-color: rgb(179, 217, 240);
   font-family: arial, sans-serif;
