@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    text-align: center
     background-color: blue;
     color: rgb(0, 102, 153);
 }
