@@ -49,14 +49,6 @@ footer {
   text-align: center;
 }
 
-table td:nth-child(odd) {
-background-color: #777;
-color: #fff; }
-
-table td:nth-child(even) {
-background-color: #999;
-color: #fff; }
-
 table th:(even){
     background-color: #999;
     color: #fff;
