@@ -67,7 +67,7 @@ tbody tr:nth-child(even) td{
 .navMenu .dot {
   width: 6px;
   height: 6px;
-  background-color: #blue;
+  background: blue;
   color: white;
   border-radius: 50%;
   opacity: 0;
