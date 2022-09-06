@@ -9,8 +9,7 @@ body {
 
 header {
     text-align: center;
-    background-color: blue;
-    color: rgb(0, 102, 153);
+    background-color: rgb(83, 83, 83);;
 }
 
 /* Applies to all <h1>...</h1> elements. */
