@@ -49,11 +49,11 @@ footer {
   text-align: center;
 }
 
-table tr:nth-child(even) td{
+tbody tr:nth-child(even) td{
     background-color: #999;
     color: #fff;
 }
-table tr:nth-child(odd){
+tbody tr:nth-child(odd) td{
     background-color: #777;
     color: #fff;
 }
