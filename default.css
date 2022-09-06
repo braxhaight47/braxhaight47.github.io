@@ -7,6 +7,11 @@ body {
   font-size: 14px;
 }
 
+header {
+    background-color: blue;
+    color: rgb(0, 102, 153);
+}
+
 /* Applies to all <h1>...</h1> elements. */
 h1 {
   font-size: 35px;
