@@ -63,3 +63,16 @@ tbody tr:nth-child(even) td{
     background-color: #777;
     color: #fff;
 }
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background-color: #blue;
+  color: white;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
