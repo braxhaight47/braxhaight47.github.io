@@ -75,3 +75,8 @@ tbody tr:nth-child(even) td{
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
+button {
+    background-color: blue;
+    color: white;
+}
