@@ -84,12 +84,12 @@ button {
 input[type=text] {
   border: 2px solid blue;
   border-radius: 4px;
-  background-color: #777;
+  background-color: lightblue;
   color: white;
 }
 input[type=number] {
   border: 2px solid blue;
   border-radius: 4px;
-  background-color: #777;
+  background-color: lightblue;
   color: white;
 }
