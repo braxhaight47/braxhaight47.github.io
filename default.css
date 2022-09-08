@@ -80,3 +80,12 @@ button {
     background-color: blue;
     color: white;
 }
+
+input[type=text] {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+input[type=number] {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
