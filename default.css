@@ -85,11 +85,11 @@ input[type=text] {
   border: 2px solid blue;
   border-radius: 4px;
   background-color: lightblue;
-  color: white;
+  color: blue;
 }
 input[type=number] {
   border: 2px solid blue;
   border-radius: 4px;
   background-color: lightblue;
-  color: white;
+  color: blue;
 }
