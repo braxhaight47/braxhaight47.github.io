@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    background-color: lightgreen;
+    background-color: white;
 }
 
 /* Applies to all <h1>...</h1> elements. */
@@ -38,7 +38,7 @@ h5 {
     color: green;
 }
 p {
-    color: lightgreen;
+    color: green;
 }
 
 /* Applies to the element with <... id="someid"> specified. */
