@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    background-color: rgb(107, 166, 255);
+    background-color: lightgreen;
 }
 
 /* Applies to all <h1>...</h1> elements. */
@@ -17,17 +17,17 @@ h1 {
   font-size: 35px;
   font-weight: normal;
   margin-top: 5px;
-  color: blue;
+  color: green;
 }
 
 h2 {
-    color: blue;
+    color: green;
 }
 
 /* Applies using id="pID" */
 
 h3 {
-    color: blue;
+    color: green;
 }
 
 h4 {
@@ -35,21 +35,21 @@ h4 {
 }
 
 h5 {
-    color: blue;
+    color: green;
 }
 p {
-    color: rgb(0, 102, 153);
+    color: lightgreen;
 }
 
 /* Applies to the element with <... id="someid"> specified. */
-#someid { color: blue; }
+#someid { color: green; }
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: blue;
+  background-color: green;
   color: white;
   text-align: center;
 }
@@ -66,7 +66,7 @@ tbody tr:nth-child(even) td{
 .navMenu .dot {
   width: 6px;
   height: 6px;
-  background: blue;
+  background: green;
   color: white;
   border-radius: 50%;
   opacity: 0;
@@ -77,19 +77,19 @@ tbody tr:nth-child(even) td{
 }
 
 button {
-    background-color: blue;
+    background-color: green;
     color: white;
 }
 
 input[type=text] {
-  border: 2px solid blue;
+  border: 2px solid green;
   border-radius: 4px;
-  background-color: lightblue;
-  color: blue;
+  background-color: lightgreen;
+  color: green;
 }
 input[type=number] {
-  border: 2px solid blue;
+  border: 2px solid green;
   border-radius: 4px;
-  background-color: lightblue;
-  color: blue;
+  background-color: lightgreen;
+  color: green;
 }
