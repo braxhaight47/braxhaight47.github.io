@@ -1,0 +1,95 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 25px;
+  background-color: lightgreen;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+header {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: green;
+}
+
+h2 {
+    color: green;
+}
+
+/* Applies using id="pID" */
+
+h3 {
+    color: green;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: green;
+}
+p {
+    color: lightgreen;
+}
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: green; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: #999;
+    color: #fff;
+}
+tbody tr:nth-child(even) td{
+    background-color: #777;
+    color: #fff;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: green;
+  color: white;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+
+input[type=text] {
+  border: 2px solid green;
+  border-radius: 4px;
+  background-color: lightgreen;
+  color: green;
+}
+input[type=number] {
+  border: 2px solid green;
+  border-radius: 4px;
+  background-color: lightgreen;
+  color: green;
+}
