@@ -1,0 +1,95 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 25px;
+  background-color: rgb(179, 217, 240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(107, 166, 255);
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
+/* Applies using id="pID" */
+
+h3 {
+    color: blue;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: blue;
+}
+p {
+    color: rgb(0, 102, 153);
+}
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: blue; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(107, 166, 255);;
+  color: white;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: #999;
+    color: #fff;
+}
+tbody tr:nth-child(even) td{
+    background-color: #777;
+    color: #fff;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: blue;
+  color: white;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+input[type=text] {
+  border: 2px solid blue;
+  border-radius: 4px;
+  background-color: lightblue;
+  color: blue;
+}
+input[type=number] {
+  border: 2px solid blue;
+  border-radius: 4px;
+  background-color: lightblue;
+  color: blue;
+}
