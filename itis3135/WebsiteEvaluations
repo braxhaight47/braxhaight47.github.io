@@ -20,7 +20,28 @@
     <main>
         <h2>Activity #4 - Website Evaluations C.R.A.P.</h2>
             <section>
-                <h3><a href=""></a></h3>
+                <h3><a href="https://www.wayfair.com/">Wayfair</a></h3>
+                <p>
+                    The website starts off with products organized in a pretty patern on the front page to grap attention, along with a search bar at the top.
+                    The layout colors are purple and white and make sure to keep all peices distinct and easy to read.
+                    When a sub menu is clicked it opens a drop down on the right that draws attention to it and is easy to read.
+                    Given that the goal of the website is to draw your attention to furniture and provide easy access to more information regarding said furniture,
+                    the easy to read layout and the easy to see peices of furniture right on the websites home page live up to their goal.
+                </p>
+                <ul>
+                    <li>C: Contrast</li>
+                    <li>R: Repitition</li>
+                    <li>A: Alignment</li>
+                    <li>P: Proximity</li>
+                </ul>
+                <p>
+                    This webiste lives up to these principals as the constrast between purple and white makes all the words easy to read,
+                    but does not draw attention away from their products nor does it make their products hard to see. Repitition is seen as
+                    all pages have the same menu bar, and all items have a similar screen depicting more details. Alignemnt plays a large role
+                    in helping distinguish all parts of the website from eachother to make sure they can all be seen, but do not overcrowd the screen
+                    Proximity is huge here as they have created an optimal amount of furniture to show to attempt to draw you in without overcrowding
+                    the screen, and they have all tabs close enough to see them all, but far away enough to distinguish them.
+                </p>
             </section>
     </main>
     <footer>
