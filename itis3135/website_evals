@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Braxton Haight | 3135-091 | Blissful Hippo | Website Evaluations</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+</head>
+  <body>
+      <header>
+          <h1>I'm Braxton and this is my Activity #4 Website for course 3135-091</h1>
+          <nav>
+              <a href="https://braxhaight47.github.io/itis3135/index.html">Introduction</a>
+              <a href="https://braxhaight47.github.io/itis3135/tables.html">Tables</a>
+              <a href="https://braxhaight47.github.io/itis3135/forms.html">Forms</a>
+              <a href="https://braxhaight47.github.io/itis3135/WebsiteEvaluations.html">Website Evaluations</a>
+              <a href="https://webpages.charlotte.edu/bhaight">UNCC Root Website</a>
+              <a href="https://braxhaight47.github.io/index.html">Github Root Website</a>
+              <div class="dot"></div>
+          </nav>
+          <img src="https://se-images-blob.campuslabs.com/communities/32/coverphotos/cdb8aa26-ac61-4b83-8ee3-7315ec6c0e35.jpg" height="200" width="700" alt="UNCC campus.">
+      </header>
+    <main>
+        <h2>Activity #4 - Website Evaluations C.R.A.P.</h2>
+            <section>
+                <h3><a href="https://www.wayfair.com/">Wayfair</a></h3>
+                <p>
+                    The website starts off with products organized in a pretty patern on the front page to grap attention, along with a search bar at the top.
+                    The layout colors are purple and white and make sure to keep all peices distinct and easy to read.
+                    When a sub menu is clicked it opens a drop down on the right that draws attention to it and is easy to read.
+                    Given that the goal of the website is to draw your attention to furniture and provide easy access to more information regarding said furniture,
+                    the easy to read layout and the easy to see peices of furniture right on the websites home page live up to their goal.
+                </p>
+                <ul>
+                    <li>C: Contrast</li>
+                    <li>R: Repitition</li>
+                    <li>A: Alignment</li>
+                    <li>P: Proximity</li>
+                </ul>
+                <p>
+                    This webiste lives up to these principals as the constrast between purple and white makes all the words easy to read,
+                    but does not draw attention away from their products nor does it make their products hard to see. Repitition is seen as
+                    all pages have the same menu bar, and all items have a similar screen depicting more details. Alignemnt plays a large role
+                    in helping distinguish all parts of the website from eachother to make sure they can all be seen, but do not overcrowd the screen
+                    Proximity is huge here as they have created an optimal amount of furniture to show to attempt to draw you in without overcrowding
+                    the screen, and they have all tabs close enough to see them all, but far away enough to distinguish them.
+                </p>
+            </section>
+            <section>
+                <h3><a href="https://arngren.net/">Arngren</a></h3>
+                <p>
+                    The website starts off with products organized in no particular order to try and force your attention,but the disorganization makes it impossible to understand the options.
+                    The layout is varying across each line and all the colors clash with no clear order to the chaos.
+                    All item description screens vary so it is disorienting to travel between them.
+                    Given that the goal of the website is to draw your attention to items and provide easy access to more information regarding said items,
+                    the incomprehensible layout makes their goal fail and makes the website impossible to look at for too long.
+                </p>
+                <ul>
+                    <li>C: Contrast</li>
+                    <li>R: Repitition</li>
+                    <li>A: Alignment</li>
+                    <li>P: Proximity</li>
+                </ul>
+                <p>
+                    This webiste does not live up to these principals as the constrast between varying colors of dozens of objects draws attention from one
+                    to the next leaving no time to actually look at one. Repitition is not featured here as each image is of varying
+                    color and placement, along with varying item description screens disorient the reader. Alignemnt plays a large role
+                    in helping distinguish all parts of the website from eachother, but this website overcrowds the screen and makes reading an impossible task.
+                    Proximity is huge here as they have clumped all the objects together in a small space making distinguishing them difficult.
+                </p>
+            </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://braxhaight47.github.io/itis3135/haight.enterprises/">© 2022 Blissful Hippo</a>
+            <a href="https://braxhaight47.github.io/itis3135/index.html">Introduction</a>
+            <a href="https://braxhaight47.github.io/itis3135/tables.html">Tables</a>
+            <a href="https://braxhaight47.github.io/itis3135/forms.html">Forms</a>
+            <a href="https://braxhaight47.github.io/itis3135/WebsiteEvaluations.html">Website Evaluations</a>
+            <a href="https://webpages.charlotte.edu/bhaight">UNCC Root Website</a>
+            <a href="https://braxhaight47.github.io/index.html">Github Root Website</a>
+            <div class="dot"></div>
+        </nav>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:44px;height:15px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbraxhaight47.github.io%2F">
+                <img style="border:0;width:44px;height:15px"
+                    src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/78500861/original/ee1278a136a5219d748492391a0852a6e6d5d9fc/validate-your-html-and-css-code-by-w3c-d1028293-de8f-4a11-86a7-a4d93fb2b313.png"
+                    alt="Valid HTML!" />
+            </a>
+        </p>
+      </footer>
+  </body>
+</html>
