@@ -37,6 +37,9 @@ h4 {
 h5 {
     color: blue;
 }
+h6 {
+    text-align: center;
+}
 p {
     color: rgb(0, 102, 153);
 }
