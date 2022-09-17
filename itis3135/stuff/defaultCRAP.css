@@ -1,0 +1,71 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 25px;
+  background-color: white;
+  font-family: arial, sans-serif;
+  font-size: 32px;
+}
+
+header {
+    text-align: center;
+    background-color: white;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: black;
+}
+
+h2 {
+    color: black;
+}
+
+/* Applies using id="pID" */
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+h5 {
+    color: black;
+}
+h6 {
+    text-align: center;
+}
+p {
+    color: black;
+}
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: blue; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
