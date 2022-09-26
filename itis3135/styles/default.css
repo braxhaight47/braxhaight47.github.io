@@ -28,7 +28,6 @@ h2 {
 
 h3 {
     color: blue;
-    text-align: center;
 }
 
 h4 {
@@ -47,6 +46,7 @@ p {
 
 /* Applies to the element with <... id="someid"> specified. */
 #someid { color: blue; }
+#center {text-align: center;}
 
 footer {
   position: fixed;
