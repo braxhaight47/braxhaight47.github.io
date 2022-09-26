@@ -7,3 +7,4 @@ function displayTime() {
     var currentTime = today.toLocaleTimeString();
     alert(currentTime);
 }
+document.write("<h3>hello</h3>");
