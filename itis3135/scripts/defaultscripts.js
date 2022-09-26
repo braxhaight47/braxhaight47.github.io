@@ -5,5 +5,5 @@ function scriptTest() {
 function displayTime() {
     var today = new Date();
     var currentTime = today.toLocaleTimeString();
-    document.write(currentTime);
+    alert(currentTime);
 }
