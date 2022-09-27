@@ -10,6 +10,7 @@ body {
 header {
     text-align: center;
     background-color: rgb(107, 166, 255);
+    width: 100%;
 }
 
 /* Applies to all <h1>...</h1> elements. */
