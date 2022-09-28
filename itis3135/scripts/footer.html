@@ -1,5 +1,6 @@
 <script type="text/javascript">
     document.getElementById("validation_html").setAttribute("href", "https://validator.w3.org/check?url=" + location.href);
+    document.getElementById("validation_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?url=" + location.href);
 </script>
 <footer>
     <nav>
@@ -10,7 +11,7 @@
         <div class="dot"></div>
     </nav>
     <p>
-        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <a id="validation_css" href="https://jigsaw.w3.org/css-validator/check/referer">
             <img style="border:0;width:44px;height:15px"
                 src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
                 alt="Valid CSS!" />
