@@ -18,17 +18,17 @@ h1 {
   font-size: 35px;
   font-weight: normal;
   margin-top: 5px;
-  color: blue;
+  color: rgb(0,0,153);
 }
 
 h2 {
-    color: blue;
+    color: rgb(0,0,153);
 }
 
 /* Applies using id="pID" */
 
 h3 {
-    color: blue;
+    color: rgb(0,0,153);
 }
 
 h4 {
@@ -36,7 +36,7 @@ h4 {
 }
 
 h5 {
-    color: blue;
+    color: rgb(0,0,153);
 }
 h6 {
     text-align: center;
@@ -46,7 +46,7 @@ p {
 }
 
 /* Applies to the element with <... id="someid"> specified. */
-#someid { color: blue; }
+#someid { color: rgb(0,0,153); }
 #center {text-align: center;}
 #white { color: white; }
 
@@ -72,7 +72,7 @@ tbody tr:nth-child(even) td{
 .navMenu .dot {
   width: 6px;
   height: 6px;
-  background: blue;
+  background: rgb(0,0,153);
   color: white;
   border-radius: 50%;
   opacity: 0;
@@ -83,21 +83,21 @@ tbody tr:nth-child(even) td{
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(0,0,153);
     color: white;
 }
 
 input[type=text] {
-  border: 2px solid blue;
+  border: 2px solid rgb(0,0,153);
   border-radius: 4px;
   background-color: lightblue;
-  color: blue;
+  color: rgb(0,0,153);
 }
 input[type=number] {
-  border: 2px solid blue;
+  border: 2px solid rgb(0,0,153);
   border-radius: 4px;
   background-color: lightblue;
-  color: blue;
+  color: rgb(0,0,153);
 }
 a:link {
   color: white;
