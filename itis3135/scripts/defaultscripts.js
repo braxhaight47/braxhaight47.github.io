@@ -12,3 +12,8 @@ function displayTime() {
     var currentTime = today.toLocaleTimeString();
     alert(currentTime);
 }
+
+function getTodaysDate() {
+    var today = new Date();
+    alert(today);
+}
