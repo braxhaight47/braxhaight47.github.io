@@ -18,7 +18,7 @@ function getTodaysDate() {
     alert(today);
 }
 
-function promptUser(var name, var mood) {
+function promptUser() {
     let name = name;
     let mood = mood;
     document.getElementById("moodGreeting").innerHTML = ("The Blissful Hippo Welcomes you, " + name + "! We're glad you are doing " + mood);
