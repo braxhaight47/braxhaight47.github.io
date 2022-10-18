@@ -17,3 +17,7 @@ function getTodaysDate() {
     var today = new Date();
     alert(today);
 }
+
+function promptUser() {
+    prompt("What is your name?");
+}
