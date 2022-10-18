@@ -23,3 +23,26 @@ function promptUser() {
     let mood = document.getElementById("mood").value;
     document.getElementById("moodGreeting").innerHTML = ("The Blissful Hippo welcomes you, " + personName + "! We're glad you are doing " + mood + "!");
 }
+
+function noise() {
+    var noiseNoise = "HIPPO NOISE AHHHHH"
+    alert(noiseNoise);
+}
+
+function realNoise() {
+    var realNoise = "MOOOOOOOOOO"
+    alert(realNoise);
+}
+
+function walk() {
+    var movement = "walk walk walk"
+    alert(movement);
+}
+
+function rickAstley() {
+    window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+}
+
+function eat() {
+    alert("Hippo eating noises");
+}
