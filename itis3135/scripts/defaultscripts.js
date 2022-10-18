@@ -19,7 +19,7 @@ function getTodaysDate() {
 }
 
 function promptUser() {
-    let name = document.getElementById("name").value;
+    let personName = document.getElementById("personName").value;
     let mood = document.getElementById("mood").value;
-    document.getElementById("moodGreeting").innerHTML = ("The Blissful Hippo welcomes you, ${fullName} ! We're glad you are doing ${feeling}!");
+    document.getElementById("moodGreeting").innerHTML = ("The Blissful Hippo welcomes you, ${personName} ! We're glad you are doing ${mood}!");
 }
