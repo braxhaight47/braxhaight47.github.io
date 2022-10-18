@@ -21,5 +21,5 @@ function getTodaysDate() {
 function promptUser() {
     let personName = document.getElementById("personName").value;
     let mood = document.getElementById("mood").value;
-    document.getElementById("moodGreeting").innerHTML = ("The Blissful Hippo welcomes you, ${personName} ! We're glad you are doing ${mood}!");
+    document.getElementById("moodGreeting").innerHTML = ("The Blissful Hippo welcomes you, " + personName + "! We're glad you are doing " + mood + "!");
 }
