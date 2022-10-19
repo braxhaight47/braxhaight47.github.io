@@ -110,3 +110,8 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
+
+.calculator__keys {
+  display: grid;
+  /* other necessary CSS */
+}
