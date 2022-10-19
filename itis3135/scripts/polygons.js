@@ -15,6 +15,7 @@ function getNumSides() {
 // Validates the right fields are inputted
 function validateEntry(numSides) {
     if (isNaN(numSides) || numSides < 1 || numSides > 10) {
+        alert("Entry is invalid");
         return false;
     } else {
         return true;
