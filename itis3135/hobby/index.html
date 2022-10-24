@@ -3,36 +3,44 @@
     <!-- Header Location -->
     <head>
         <title>Braxton Haight | 3135-091 | Blissful Hippo | Midterm</title>
+        <style>
+            .target {
+                display: none;
+            }
+        </style>
         <!-- Embedded Javascript -->
         <script>
+
             let pageName = "";
+
             function show(shown) {
-              pageName = document.getDivID();
-              document.getElementById(shown).style.display='block';
-              document.getElementById(pageName).style.display='none';
-              return false;
+              pageNameArray = document.getElementsByClassName("target");
+              for (let i = 0; i < pageNameArray.length; i++) {
+                  if(pageNameArray[i].id == shown){
+                       pageNameArray[i].display = "block";
+                  }
+                  else {
+                      pageNameArray[i].display = "none";
+                  }
+                }
             }
-            function show(shown, hidden) {
-              document.getElementById(shown).style.display='block';
-              document.getElementById(hidden).style.display='none';
-              return false;
-            }
+
         </script>
     </head>
     <!-- Multiple Pages Start Here (Bodies) -->
     <body>
         <header>
             <h1>Braxton Haight's Blissful Hippo | 3135-091</h1>
-            <a href="#" onclick="return show('Page1');">Show page 1</a>
-            <a href="#" onclick="return show('Page2');">Show page 2</a>
+            <a href="#" onclick="show('page1');">Show page 1</a>
+            <a href="#" onclick="show('page2');">Show page 2</a>
             <img src="" height="200" width="700" alt="Magic.">
         </header>
         <!-- Page 1 -->
-        <div id="Page1">
+        <div id="page1" class="target">
             Content of page 1
         </div>
         <!-- Page 2 -->
-        <div id="Page2" style="display:none">
+        <div id="page2" class="target">
             Content of page 2
         </div>
     </body>
