@@ -3,6 +3,8 @@
     <!-- Header Location -->
     <head>
         <title>Braxton Haight | 3135-091 | Blissful Hippo | Midterm</title>
+
+        <!-- Embedded CSS -->
         <style>
             .target {
                 display: none;
@@ -11,16 +13,18 @@
         <!-- Embedded Javascript -->
         <script>
 
+            // Passes through different divs with target class to set to hidden or not.
             let pageName = "";
-
             function show(shown) {
               pageNameArray = document.getElementsByClassName("target");
               for (let i = 0; i < pageNameArray.length; i++) {
                   if(pageNameArray[i].id == shown){
-                       pageNameArray[i].display = "block";
+                      console.log(pageNameArray[i].id);
+                       pageNameArray[i].style.display = "block";
                   }
                   else {
-                      pageNameArray[i].display = "none";
+                      console.log(pageNameArray[i].id);
+                      pageNameArray[i].style.display = "none";
                   }
                 }
             }
