@@ -5,17 +5,19 @@
         <title>Braxton Haight | 3135-091 | Blissful Hippo | Midterm</title>
         <!-- Embedded Javascript -->
         <script>
-        function show(shown, hidden) {
-          document.getElementById(shown).style.display='block';
-          document.getElementById(hidden).style.display='none';
-          return false;
-        }
+            function show(shown, hidden) {
+              document.getElementById(shown).style.display='block';
+              document.getElementById(pageNum).style.display='none';
+              return false;
+            }
         </script>
     </head>
     <!-- Multiple Pages Start Here (Bodies) -->
     <body>
         <header>
             <h1>Braxton Haight's Blissful Hippo | 3135-091</h1>
+            <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+            <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
             <img src="" height="200" width="700" alt="Magic.">
         </header>
         <!-- Page 1 -->
