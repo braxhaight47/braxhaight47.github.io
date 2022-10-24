@@ -5,14 +5,11 @@
         <title>Braxton Haight | 3135-091 | Blissful Hippo | Midterm</title>
         <!-- Embedded Javascript -->
         <script>
-            let pageName = "Page1";
-            function setVar(pageNameInsert) {
-                 pageName = pageNameInsert;
-            }
+            let pageName = "";
             function show(shown) {
+              pageName = document.getDivID();
               document.getElementById(shown).style.display='block';
               document.getElementById(pageName).style.display='none';
-              pageName = "";
               return false;
             }
             function show(shown, hidden) {
@@ -31,11 +28,11 @@
             <img src="" height="200" width="700" alt="Magic.">
         </header>
         <!-- Page 1 -->
-        <div id="Page1" onload="setVar('Page1');">
+        <div id="Page1">
             Content of page 1
         </div>
         <!-- Page 2 -->
-        <div id="Page2" style="display:none" onload="setVar('Page2');">
+        <div id="Page2" style="display:none">
             Content of page 2
         </div>
     </body>
