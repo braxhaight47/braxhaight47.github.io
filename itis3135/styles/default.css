@@ -150,7 +150,7 @@ a:visited {
 
 .all-clear {
     background-color: #421308;
-    border-color: #b63337;
+    border-color: #421308;
     color: white;
 
     grid-row-start: 1;
@@ -166,7 +166,7 @@ a:visited {
 
 .equal-sign {
     background-color: #12354d;
-    border-color: #2f7bad;
+    border-color: #12354d;
     color: #fff;
 
     height: 100%;
