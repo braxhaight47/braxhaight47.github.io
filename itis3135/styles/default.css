@@ -145,7 +145,7 @@ a:visited {
 
 .key--operator {
     color: #eaebff;
-    background-color: var(--nav-bg);
+    background-color: rgb(0,0,153);;
 }
 
 .all-clear {
