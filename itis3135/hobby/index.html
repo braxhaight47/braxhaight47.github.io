@@ -5,7 +5,7 @@
         <title>Braxton Haight | 3135-091 | Blissful Hippo | Midterm</title>
         <!-- Embedded Javascript -->
         <script>
-            let pageName = "Page1";
+            let pageName = "";
             function setVar(pageNameInsert) {
                  pageName = pageNameInsert;
             }
@@ -30,16 +30,15 @@
             <img src="" height="200" width="700" alt="Magic.">
         </header>
         <!-- Page 1 -->
-        <div id="Page1">
+        <div id="Page1" onload="setVar('Page1');">
             Content of page 1
             <img src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fmtg-arena%2FEGS_WOTC_G2_6-1920x1080-bceef696e46c37538ad5f463d00106d18ef2f7d4.png?h=720&resize=1&w=1280" height="200" width="500" alt="Magic.">
-            setVar("Page1");
             <a href="#" onclick="return show('Page2');">Show page 2</a>
         </div>
         <!-- Page 2 -->
-        <div id="Page2" style="display:none">
+        <div id="Page2" style="display:none" onload="setVar('Page2');">
             Content of page 2
-            <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+            <a href="#" onclick="return show('Page1');">Show page 1</a>
         </div>
     </body>
 </html>
