@@ -64,7 +64,12 @@
         </style>
         <!-- Embedded Javascript -->
         <script>
-
+            function setColor(num) {
+                switch:
+                    case 1:
+                        body.style.backgroundcolor = "white";
+                        break;
+            }
             // Passes through different divs with target class to set to hidden or not.
             let pageName = "";
             function show(shown) {
@@ -108,7 +113,7 @@
             </p>
         </div>
         <!-- Page 1 -->
-        <div id="page1" class="target">
+        <div id="page1" class="target" onload="setColor(1);">
             <h2>White</h2>
             <img src="/images/white" height="200" width="200" alt="White.">
         </div>
