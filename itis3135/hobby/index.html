@@ -64,21 +64,7 @@
         </style>
         <!-- Embedded Javascript -->
         <script>
-            // Passes through different divs with target class to set to hidden or not.
-            let pageName = "";
-            function show(shown) {
-              pageNameArray = document.getElementsByClassName("target");
-              for (let i = 0; i < pageNameArray.length; i++) {
-                  if(pageNameArray[i].id == shown){
-                      console.log(pageNameArray[i].id);
-                       pageNameArray[i].style.display = "block";
-                  }
-                  else {
-                      console.log(pageNameArray[i].id);
-                      pageNameArray[i].style.display = "none";
-                  }
-                }
-            }
+            // Designs the background color function
             function setColor(num) {
                 console.log(num);
                 if (num == 0){
@@ -103,7 +89,20 @@
                     body.style.backgroundColor = "#bdbdbb";
                 }
             }
-
+            // Passes through different divs with target class to set to hidden or not.
+            let pageName = "";
+            function show(shown) {
+              pageNameArray = document.getElementsByClassName("target");
+              for (let i = 0; i < pageNameArray.length; i++) {
+                  if(pageNameArray[i].id == shown){
+                       pageNameArray[i].style.display = "block";
+                       setColor(i);
+                  }
+                  else {
+                      pageNameArray[i].style.display = "none";
+                  }
+                }
+            }
         </script>
     </head>
     <!-- Multiple Pages Start Here (Bodies) -->
@@ -121,7 +120,7 @@
             <img src="https://preview.redd.it/5riqd2z9woq81.jpg?width=640&crop=smart&auto=webp&s=cca361d54437c4161fff1c8b6d82f97852546b6a" height="200" width="700" alt="Magic.">
         </header>
         <!-- Home Page -->
-        <div id="home" class="target" onload="setColor(0);">
+        <div id="home" class="target">
             <h2>Home</h2>
             <p class="center">Magic the Gathering is a trading card game that is played by millions around the world. <br>
                 The game focuses on two to four players, depending in the game mode, and players will fight until the life points of their oppenents hit zero.<br>
@@ -131,7 +130,7 @@
             </p>
         </div>
         <!-- Page 1 -->
-        <div id="page1" class="target" onload="setColor(1);">
+        <div id="page1" class="target">
             <h2>White</h2>
             <img src="/images/white" height="200" width="200" alt="White.">
         </div>
