@@ -19,6 +19,13 @@ let person = ["John Waterson", "Bojack Horseman", "Dr. Jean Smith"];
                 alert("Added Successfully!");
             }
         }
+        function displayEmployees(){
+            let employees = document.getElementById("employees");
+            employees.innerHTML = "";
+            for (var j = 0; j < person.length; j++){
+                employees.innerHTML += "<option>" + person[j] + "</option>";
+            }
+        }
         function displayResults(){
             var highest = 0, average = 0;
             for (var j = 0; j < salaries.length; j++){
@@ -41,12 +48,5 @@ let person = ["John Waterson", "Bojack Horseman", "Dr. Jean Smith"];
             table.innerHTML = "<tr><th>Name</th><th>Salary</th></tr>";
             for (var j = 0; j < person.length; j++){
                 table.innerHTML += "<tr><td>" + person[j] + "</td><td>" + salaries[j] + "</td></tr>";
-            }
-        }
-        function displayEmployees(){
-            let employees = document.getElementById("employees");
-            employees.innerHTML = "";
-            for (var j = 0; j < person.length; j++){
-                employees.innerHTML += "<option>" + person[j] + "</option>";
             }
         }
