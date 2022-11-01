@@ -1,5 +1,5 @@
-let person = ["Person 1", "Person 2"];
-        let salaries = [22000, 23000];
+let person = ["John Waterson", "Bojack Horseman", "Dr. Jean Smith"];
+        let salaries = [20000, 125000, 1200000];
 
         function addSalary(){
             let name = document.getElementById("name").value;
