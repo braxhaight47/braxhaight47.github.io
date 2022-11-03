@@ -18,6 +18,10 @@ body {
   font-family: arial, sans-serif;
   font-size: 14px;
 }
+textarea {
+    margin: 0 auto;
+    justify-content: center;
+}
 header {
     text-align: center;
     background-color: #5c5c4d;
