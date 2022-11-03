@@ -17,6 +17,6 @@ function designer() {
 }
 function reload(){
     var container = document.getElementById("contentSpace");
-    var content = container.innerHTML;
-    container.innerHTML= content;
+    var content = "<p id='contentSpaceP'></p>";
+    container.innerHTML = content;
 }
