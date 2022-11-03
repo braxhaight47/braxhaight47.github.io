@@ -19,7 +19,7 @@ body {
   font-size: 14px;
 }
 label {
-    justify-content: center;
+    display: inline-block;
 }
 textarea {
     display: block;
