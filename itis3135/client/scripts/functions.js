@@ -13,10 +13,10 @@ function show(shown) {
 
 function designer() {
     var textContent = document.getElementById("designerInfo").value;
-    document.getElementById("contentSpaceP").outerHTML = textContent;
+    document.getElementById("contentSpace").innerHTML = textContent;
 }
 function reload(){
     var container = document.getElementById("contentSpace");
     var content = container.innerHTML;
-    container.innerHTML= content; 
+    container.innerHTML= content;
 }
