@@ -12,6 +12,6 @@ function show(shown) {
 }
 
 function designer() {
-    let textContent = document.getElementById("designerInfo").value;
-    document.getElementById("contentSpaceP") = textContent;
+    var textContent = document.getElementById("designerInfo").value;
+    document.getElementById("contentSpaceP").innerHTML = textContent;
 }
