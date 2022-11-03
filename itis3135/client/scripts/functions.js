@@ -10,3 +10,8 @@ function show(shown) {
       }
     }
 }
+
+function designer() {
+    let textConent = document.getElementById("designerInfo").value;
+    
+}
