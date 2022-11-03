@@ -18,6 +18,9 @@ body {
   font-family: arial, sans-serif;
   font-size: 14px;
 }
+label {
+    text-align: center;
+}
 textarea {
     display: block;
     margin-left: auto;
