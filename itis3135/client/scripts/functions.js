@@ -15,8 +15,9 @@ function designer() {
     var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
 }
+
 function reload(){
     var container = document.getElementById("contentSpace");
-    var content = "<p id='contentSpaceP'></p>";
+    var content = "<p>Content Written Will Be Displayed Here!</p>";
     container.innerHTML = content;
 }
