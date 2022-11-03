@@ -18,11 +18,8 @@ body {
   font-family: arial, sans-serif;
   font-size: 14px;
 }
-label {
-    vertical-align: middle;
-}
 textarea {
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
