@@ -86,6 +86,9 @@ p {
     font-size: 20px;
     font-weight: normal;
 }
+.backColor {
+    background-image: linear-gradient(to right, #C6887B, #E8B7AD);
+}
 .pBG {
     color: #5c5c4d;
     text-align: center;
