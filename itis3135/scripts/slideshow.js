@@ -12,8 +12,8 @@ $(document).ready(function () {
         else {
             slideContinue = slideContinue.next();
         }
-        slideContinueSource = slideContinue.attr("src");
         followingCaption = slideContinue.attr("alt");
+        slideContinueSource = slideContinue.attr("src");
         $("#slide").attr("src", slideContinueSource).fadeIn(1000);
         $("#caption").text(followingCaption).show(1000);
     }
