@@ -134,3 +134,8 @@ a:visited {
     background-image: linear-gradient(to right, #EBCE52, #F3E29A);
 }
 #white { color: white; }
+#switchHeader {
+    text-align: center;
+    background-color: #5c5c4d;
+    width: 100%;
+}
