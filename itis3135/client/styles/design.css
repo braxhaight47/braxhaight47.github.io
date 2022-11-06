@@ -98,6 +98,29 @@ ul {
     font-size: 20px;
     font-weight: normal;
 }
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: rgb(0,0,153);
+  color: white;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 #design {
     background-image: linear-gradient(to right, #C6887B, #E8B7AD);
 }
@@ -110,3 +133,4 @@ ul {
 #creative2 {
     background-image: linear-gradient(to right, #EBCE52, #F3E29A);
 }
+#white { color: white; }
