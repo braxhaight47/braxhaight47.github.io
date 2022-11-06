@@ -2,39 +2,14 @@
 <html lang="en">
     <!-- Header Location -->
     <head>
-        <title>Braxton Haight | 3135-091 | Blissful Hippo | Client Proposal</title>
+        <title>Braxton Haight | 3135-091 | Blissful Hippo | Client Home</title>
         <link rel="stylesheet" type="text/css" href="styles/design.css">
     </head>
-    <!-- Multiple Pages Start Here (Bodies) -->
-    <body onload="show('design');">
-        <header>
-            <h1>Testing Page</h1>
-            <br>
-            <a href="#" onclick="show('design');">Design |</a>
-            <a href="#" onclick="show('creative');">Creative</a>
-            <figure>
-                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--eXRLFXWn--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tphlx9jmote7qma454g4.png" height="200" width="550" alt="HTMLCat.">
-            </figure>
-        </header>
-        <!-- Design Page -->
-        <div id="design" class="target">
-            <h2>Design Page</h2>
-            <button type="button" onclick="designer()">Submit</button>
-            <button type="button" onclick="reload()">Reset</button>
-            <label for="designerInfo">Write your HTML below:</label>
-            <br>
-            <textarea id="designerInfo" name="designerInfo" rows="16" cols="140">
-                Enter html here...
-            </textarea>
-            <br>
-        </div>
-        <!-- Creative Page -->
-        <div id="creative" class="target">
-            <h2>Creative Page</h2>
-            <div id="contentSpace">
-                <p>Content Written Will Be Displayed Here!</p>
-            </div>
-        </div>
+    <body>
+        <div data-include="components/header.html"></div>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/HTMLInclude.min.js"></script>
+        <h2>Home</h2>
         <br><br><br><br><br><br>
         <footer>
             <nav>
