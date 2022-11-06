@@ -1,32 +1,32 @@
 // Jquery for Slideshow!
 $(document).ready(function () {
-    var nextSlide = $("#slides img:first-child");
-    var nextCaption;
-    var nextSlidesource;
-    var runSlideShow = function () {
+    var followingCaption;
+    var slideContinueSource;
+    var slideContinue = $("#slides img:first-child");
+    var activateSlides = function () {
         $("#caption").hide(2000);
         $("#slide").fadeOut(1000,function () {
-        if (nextSlide.length == 0){
-            nextSlide = $("#slides img:first-child");
+        if (slideContinue.length == 0){
+            slideContinue = $("#slides img:first-child");
         }
         else {
-            nextSlide = nextSlide.next();
+            slideContinue = slideContinue.next();
         }
-        nextSlidSource = nextSlide.attr("src");
-        nextCaption = nextSlide.attr("alt");
-        $("#slide").attr("src", nextSlidSource).fadeIn(1000);
-        $("#caption").text(nextCaption).show(1000);
+        slideContinueSource = slideContinue.attr("src");
+        followingCaption = slideContinue.attr("alt");
+        $("#slide").attr("src", slideContinueSource).fadeIn(1000);
+        $("#caption").text(followingCaption).show(1000);
     }
     );
     };
-    var timer1 = setInterval(runSlideShow, 5000);
+    var timer = setInterval(activateSlides, 5000);
     $("#Slide").click(function () {
         if (time != null) {
-            clearInterval(timer1);
-            timer1 = null;
+            clearInterval(timer);
+            timer = null;
         }
         else {
-            timer1 = setInterval(runSlideShow, 5000);
+            timer = setInterval(activateSlides, 5000);
         }
     });
 });
