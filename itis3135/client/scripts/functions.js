@@ -24,10 +24,6 @@ function reload(){
     container.innerHTML = content;
 }
 
-//window.onload = function(){
- // document.getElementById("designerInfo").value = getCookie("quantity");
-//}
-
 //Testing things
 function setCookie(name, value) {
   var d = new Date();
