@@ -1,6 +1,6 @@
 let pageName = "";
 function show(shown) {
-  document.getElementById("designerInfo").value = getCookie("quantity");
+  document.getElementById("designerInfo").value = getCookie("myCookie");
   pageNameArray = document.getElementsByClassName("target");
   for (let i = 0; i < pageNameArray.length; i++) {
       if(pageNameArray[i].id == shown){
@@ -15,7 +15,7 @@ function show(shown) {
 function designer() {
     var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
-    setCookie('quantity', textContent);
+    setCookie('myCookie', textContent);
 }
 
 function reload(){
@@ -23,6 +23,7 @@ function reload(){
     var content = "<p>Content Written Will Be Displayed Here!</p>";
     container.innerHTML = content;
     document.getElementById("designerInfo").value = "Enter html here...";
+    setCookie('myCookie', document.getElementById("designerInfo").value);
 }
 
 //Testing things
