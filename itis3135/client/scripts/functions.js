@@ -13,6 +13,7 @@ function show(shown) {
 
 function designer() {
     var textContent = document.getElementById("designerInfo").value;
+    localStorage.setItem('textStuff', textContent.value);
     document.getElementById("contentSpace").innerHTML = textContent;
 }
 
@@ -20,4 +21,10 @@ function reload(){
     var container = document.getElementById("contentSpace");
     var content = "<p>Content Written Will Be Displayed Here!</p>";
     container.innerHTML = content;
+}
+
+window.onload = function() {
+  var textContent = document.getElementById("designerInfo").value;
+  textContent.value = localStorage.getItem('textStuff');
+  document.getElementById("contentSpace").innerHTML = textContent;
 }
