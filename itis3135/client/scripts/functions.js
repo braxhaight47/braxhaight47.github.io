@@ -1,5 +1,6 @@
 let pageName = "";
 function show(shown) {
+  document.getElementById("designerInfo").value = getCookie("quantity");
   pageNameArray = document.getElementsByClassName("target");
   for (let i = 0; i < pageNameArray.length; i++) {
       if(pageNameArray[i].id == shown){
@@ -23,9 +24,10 @@ function reload(){
     container.innerHTML = content;
 }
 
-window.onload = function(){
-  document.getElementById("designerInfo").value = getCookie("quantity");
-}
+//window.onload = function(){
+ // document.getElementById("designerInfo").value = getCookie("quantity");
+//}
+
 //Testing things
 function setCookie(name, value) {
   var d = new Date();
