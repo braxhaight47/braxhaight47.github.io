@@ -89,6 +89,9 @@ p {
 .backColor {
     background-image: linear-gradient(to right, #C6887B, #E8B7AD);
 }
+.backColor2 {
+    background-image: linear-gradient(to right, #EBCE52, #F3E29A);
+}
 .pBG {
     color: #5c5c4d;
     text-align: center;
