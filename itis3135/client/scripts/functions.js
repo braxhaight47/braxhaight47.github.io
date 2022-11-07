@@ -24,7 +24,5 @@ function reload(){
 }
 
 window.onload = function() {
-  var textContent = document.getElementById("designerInfo").value;
-  textContent.value = localStorage.getItem('textStuff');
-  document.getElementById("contentSpace").innerHTML = textContent;
+   document.getElementById("contentSpace") = localStorage.getItem('textStuff');
 }
