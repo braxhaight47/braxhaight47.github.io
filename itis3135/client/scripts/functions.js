@@ -22,6 +22,7 @@ function reload(){
     var container = document.getElementById("contentSpace");
     var content = "<p>Content Written Will Be Displayed Here!</p>";
     container.innerHTML = content;
+    document.getElementById("designerInfo").value = "Enter html here...";
 }
 
 //Testing things
