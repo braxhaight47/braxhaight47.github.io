@@ -96,6 +96,10 @@ p {
     font-weight: normal;
 
 }
+#colorsForHTMLGUIDE {
+    color: #5c5c4d;
+    text-align: center;
+}
 ul {
     color: #5c5c4d;
     font-size: 20px;
