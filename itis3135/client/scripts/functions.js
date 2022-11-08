@@ -13,7 +13,7 @@ function show(shown) {
 }
 
 function designer() {
-    browser.cookies.remove("myCookie");
+    document.cookie = "cookiename= myCookie; expires = Thu, 01 Jan 1970 00:00:00 GMT";
     var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
     setCookie('myCookie', textContent);
