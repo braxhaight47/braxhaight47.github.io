@@ -13,11 +13,9 @@ function show(shown) {
 }
 
 function designer() {
-    document.cookie = "myCookie=''";
     var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
-    //setCookie('myCookie', textContent);
-    document.cookie["myCookie"] = textContent;
+    setCookie('myCookie', textContent);
 }
 
 function reload(){
