@@ -16,7 +16,8 @@ function designer() {
     document.cookie = "myCookie=''";
     var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
-    setCookie('myCookie', textContent);
+    //setCookie('myCookie', textContent);
+    document.cookie["myCookie"] = textContent;
 }
 
 function reload(){
