@@ -13,13 +13,10 @@ function show(shown) {
 }
 
 function designer() {
-    var textContent = document.getElementById("designerInfo").value;
+    var textContent = document.getElementById("designerInfo").val();
     document.getElementById("contentSpace").innerHTML = textContent;
-    //setCookie("myCookie", textContent);
-
-    var valText = textContent.val();
+    setCookie("myCookie", textContent);
     var myCookieValue = valText.split('\n').join('\\');
-    document.cookie = "myCookie=" + myCookieValue + "; path=/;"
 }
 
 function reload(){
