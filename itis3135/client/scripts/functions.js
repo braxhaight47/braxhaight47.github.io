@@ -13,10 +13,9 @@ function show(shown) {
 }
 
 function designer() {
-    var textContent = document.getElementById("designerInfo").val();
+    var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
     setCookie("myCookie", textContent);
-    var myCookieValue = valText.split('\n').join('\\');
 }
 
 function reload(){
