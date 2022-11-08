@@ -15,7 +15,11 @@ function show(shown) {
 function designer() {
     var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
-    setCookie('myCookie', textContent);
+    //setCookie("myCookie", textContent);
+
+    var valText = textContent.val();
+    var myCookieValue = valText.split('\n').join('\\');
+    document.cookie = "myCookie=" + myCookieValue + "; path=/;"
 }
 
 function reload(){
