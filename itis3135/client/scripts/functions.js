@@ -13,6 +13,7 @@ function show(shown) {
 }
 
 function designer() {
+    browser.cookies.remove();
     var textContent = document.getElementById("designerInfo").value;
     document.getElementById("contentSpace").innerHTML = textContent;
     setCookie('myCookie', textContent);
