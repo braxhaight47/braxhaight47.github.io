@@ -17,6 +17,7 @@ function designer() {
     document.getElementById("contentSpace").innerHTML = textContent;
     textContent = textContent.split('\n').join('\\');
     setCookie("myCookie", textContent);
+    //localStorage.setItem("textStuff", document.getElementById("designerInfo").value)
 }
 
 function reload(){
@@ -25,6 +26,7 @@ function reload(){
     container.innerHTML = content;
     document.getElementById("designerInfo").value = "Enter html here...";
     setCookie('myCookie', document.getElementById("designerInfo").value);
+    ////localStorage.getItem("textStuff");
 }
 
 //Testing things
