@@ -1,6 +1,6 @@
 let pageName = "";
 function show(shown) {
-  document.getElementById("designerInfo").value = getCookie("myCookie").split('&&&').join(';').split('').join('\n');;
+  document.getElementById("designerInfo").value = getCookie("myCookie").split('&&&').join(';').split('\\').join('\n');;
   pageNameArray = document.getElementsByClassName("target");
   for (let i = 0; i < pageNameArray.length; i++) {
       if(pageNameArray[i].id == shown){
