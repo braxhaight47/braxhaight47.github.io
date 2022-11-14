@@ -1,0 +1,208 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 25px;
+  background-color: rgb(179, 217, 240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(107, 166, 255);
+    width: 100%;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: rgb(0,0,153);
+}
+
+h2 {
+    color: rgb(0,0,153);
+}
+
+/* Applies using id="pID" */
+
+h3 {
+    color: rgb(0,0,153);
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: rgb(0,0,153);
+}
+h6 {
+    text-align: center;
+}
+p {
+    color: rgb(0, 102, 153);
+}
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid { color: rgb(0,0,153); }
+#center {text-align: center;}
+#white { color: white; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(107, 166, 255);;
+  color: white;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: #999;
+    color: #fff;
+}
+tbody tr:nth-child(even) td{
+    background-color: #777;
+    color: #fff;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: rgb(0,0,153);
+  color: white;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+button {
+    background-color: rgb(0,0,153);
+    color: white;
+}
+
+input[type=text] {
+  border: 2px solid rgb(0,0,153);
+  border-radius: 4px;
+  background-color: lightblue;
+  color: rgb(0,0,153);
+}
+input[type=number] {
+  border: 2px solid rgb(0,0,153);
+  border-radius: 4px;
+  background-color: lightblue;
+  color: rgb(0,0,153);
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 23.5%;
+}
+
+.calculator__display {
+    background-color: rgb(255,255,255);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    justify-content: center;
+    align-content: center;
+    min-height: 20vh;
+}
+
+.outcalculator__display .previous-operand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.calculator__display .current-operand {
+    color: white;
+    font-size: 3.5rem;
+}
+
+.key--operator {
+    color: #eaebff;
+    background-color: rgb(0,0,153);;
+}
+
+.all-clear {
+    background-color: #421308;
+    border-color: #421308;
+    color: white;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-column: span 2;
+    width: 100%;
+}
+
+.all-clear:hover {
+    background-color: #ec696e;
+}
+
+.equal-sign {
+    background-color: #12354d;
+    border-color: #12354d;
+    color: #fff;
+
+    height: 100%;
+    width: 100%;
+    grid-column: span 2;
+}
+
+.equal-sign:hover {
+    background-color: #4698ce;
+}
+
+.calculator__keys {
+    --gap: 6px;
+    --num-cols: 4;
+
+    text-align: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    gap: var(--gap);
+}
+
+.calculator-coulmn-2 {
+    grid-column: span 2;
+}
+
+.calculator-row-2 {
+    grid-row: span 2;
+}
+
+#slides img {
+
+display: none;
+
+}
