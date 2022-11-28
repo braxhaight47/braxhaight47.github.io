@@ -57,7 +57,7 @@ h4 {
 }
 footer {
   position: relative;
-  margin-top: -100px;
+  margin-top: 0px;
   /* negative value of footer height */
   height: 100px;
   width: 100%;
