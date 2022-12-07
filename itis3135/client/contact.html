@@ -7,12 +7,21 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="scripts/json.js"></script>
+        <script src="scripts/ajaxscript.js"></script>
     </head>
     <body>
         <div data-include="components/header.html"></div>
         <main>
             <h2>Contact Page</h2>
             <div id="contact"></div>
+            <div id="contact2">
+                <h3>Click For HTML Help</h3>
+                <button type="button" onclick="loadDoc()">HTML Assistance</button>
+            </div>
+            <div id="contact3">
+                <h3>Click For CSS/Javascript Help</h3>
+                <button type="button" onclick="loadDoc2()">CSS/JS Assistance</button>
+            </div>
         </main>
         <div data-include="components/footer.html"></div>
         <script src="scripts/functions.js"></script>
