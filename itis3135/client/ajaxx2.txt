@@ -1,5 +1,5 @@
 <p class="backColor2" id="contact3">
     CSS/JS Assistance
     <br>
-    blissfulhippoHTML@blissfulhippo.inc
+    blissfulhippoCSSJS@blissfulhippo.inc
 <p>
