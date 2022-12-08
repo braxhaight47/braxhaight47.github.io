@@ -168,7 +168,7 @@ a:visited {
     border-top-right-radius: 10px;
 }
 #creative {
-    background-image: linear-gradient(to right, #EBCE52, #F3E29A);
+    /* background-image: linear-gradient(to right, #EBCE52, #F3E29A); */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
