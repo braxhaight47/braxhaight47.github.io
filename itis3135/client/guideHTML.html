@@ -4,48 +4,35 @@
     <head>
         <title>HTML Tutorial</title>
         <link rel="stylesheet" type="text/css" href="styles/design.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     </head>
     <body>
         <div data-include="components/header.html"></div>
-        <h2><b>HTML Tutorial</b></h2>
-        <h3 id="colorsForHTMLGUIDE" class="backColor"><b>Welcome to the HTML tutorial by Blissful Hippo!</b></h3>
-        <p class="backColor">
-            Try out this guide on the creative tab -> <a href="creative.html">Creative</a><br>
-            <br>
-            HTML is comprised of 'tags' which look like this &lt;&gt; and add parts to the website.<br>
-            For every opening tag there is a closing tag that looks like this &lt;/&gt;<br>
-            By combining these tags and putting in content, you can create a webpage!<br>
-            The following is the set up of a page, and is preset for the creative page so there is no need to type it.<br>
-            <br>
-            &lt;!DOCTYPE html&gt;- Sets the type of the page to HTML as it is a HTML file.<br>
-            &lt;html lang="en"&gt;- Sets the default language to english.<br>
-            &lt;head&gt;- This is the head tag, used for setting the title and linking style sheets.<br>
-            &lt;title&gt;- This creates the title of the page, or what is written in the websites tab.<br>
-            Braxton Haight | 3135-091 | Blissful Hippo | HTML Guide<br>
-            &lt;/title&gt;- This is a closing tag for title<br>
-            &lt;/head&gt;- This is a closing tag for head<br>
-            &lt;body&gt;- This is a body tag, all the main parts of the website are placed here.<br>
-            <br>
-            This is all the preloaded code that establishes the body of the HTML for this and the creative page.<br>
-            <br>
-            Step 1: &lt;h2&gt;Why we love hippos&lt;/h2&gt;<br>
-            This is a header and the 2 in h2 specifies the size, they go from 1-7 with 1 being the heading of the page.<br>
-            <br>
-            Step 2: &lt;p&gt;Hippos are found in Africa and can swim up to 25mph!&lt;/p&gt;<br>
-            This is a text block that allows chunks of text to be added such as this very sentence!<br>
-            <br>
-            Step 3: &lt;a href="https://www.natgeokids.com/uk/discover/animals/general-animals/ten-hippo-facts/"&gt; For some extra hippo facts click this link!!&lt;/a&gt;<br>
-            This is an anchor tag will allow you to link other websites or pages to the anchor tag by placing the link in quotes.<br>
-            <br>
-            Step 4:
-            &lt;h3&gt;Types of Hippos&lt;/h3&gt;
-            &lt;ul&gt;&lt;li&gt;Common Hippo&lt;/li&gt;&lt;li&gt;Pygmy Hippo&lt;/li&gt;&lt;/ul&gt;<br>
-            This is an unordered list tag that lets you make list elements and put them in a bulleted list for displaying information.<br>
-            <br>
-            This is the closing of the preset tags in the beggining of the HTML from the beggining of the website.<br>
-            &lt;/body&gt;- This is the closing body tag.<br>
-            &lt;/html&gt;- This is the closing of the html tag and end of the website!<br>
-        </p>
+        <main>
+            <h1>HTML Tutorial</h1>
+
+            <div class="accordion">
+                <h3>Section 1: Introduction to HTML</h3>
+                <div>
+                  <p>HTML, or HyperText Markup Language, is the standard language for creating web pages and web applications.</p>
+                  <p>It consists of a set of tags and attributes that define the structure and content of a web page, such as headings, paragraphs, links, images, and more.</p>
+                </div>
+
+                <h3>Section 2: Basic HTML tags</h3>
+                <div>
+                  <p>Here are some of the most common HTML tags:</p>
+                  <ul>
+                    <li><code>&lt;p&gt;</code> - defines a paragraph of text</li>
+                    <li><code>&lt;a&gt;</code> - defines a hyperlink to another web page or location</li>
+                    <li><code>&lt;img&gt;</code> - defines an image on the page</li>
+                    <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> - define headings of different sizes</li>
+                    <li><code>&lt;div&gt;</code> - defines a division or section of the page</li>
+                    <li><code>&lt;span&gt;</code> - defines a span of inline text</li>
+                  </ul>
+                </div>
+            </div>
+        </main>
         <div data-include="components/footer.html"></div>
         <script src="scripts/HTMLInclude.min.js"></script>
         <script src="scripts/functions.js"></script>

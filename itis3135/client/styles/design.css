@@ -177,3 +177,21 @@ a:visited {
 #contact2 {
     text-align: center;
 }
+.accordion h3 {
+      cursor: pointer;
+      padding: 10px;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      margin-bottom: 5px;
+    }
+
+    .accordion h3.active {
+      background-color: #ddd;
+    }
+
+    .accordion div {
+      display: none;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
