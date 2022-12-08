@@ -29,6 +29,7 @@ header {
     width: 100%;
     padding-bottom: 15px;
     padding-top: 15px;
+    border-radius: 10px;
 }
 h1 {
   font-size: 35px;
