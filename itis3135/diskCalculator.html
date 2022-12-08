@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disk Area Calculator</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    h1, h2, h3 {
+      color: #333;
+    }
+    p {
+      margin: 10px 0;
+    }
+    input[type="number"] {
+      width: 60px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Disk Area Calculator</h1>
+  <p>Enter the inner and outer radii of the disk below to calculate its area:</p>
+  <form>
+    Inner radius: <input type="number" id="r1"><br>
+    Outer radius: <input type="number" id="r2"><br>
+    <input type="button" value="Calculate" onclick="calculateArea()">
+    <input type="reset" value="Clear">
+  </form>
+  <p>Area: <span id="area"></span></p>
+  <script>
+    function calculateArea() {
+      // Get the inner and outer radii of the disk
+      var r1 = document.getElementById("r1").value;
+      var r2 = document.getElementById("r2").value;
+      // Calculate the area of the disk
+      var area = Math.PI * ((r1 * r1 * r1 - r2 * r2 * r2) / 3);
+      // Display the result
+      document.getElementById("area").innerHTML = area.toFixed(4);
+    }
+  </script>
+</body>
+</html>
