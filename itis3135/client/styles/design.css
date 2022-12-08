@@ -73,6 +73,10 @@ footer {
 .footerBGC {
     background-color:#5c5c4d;
 }
+.curveTop {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 a:link {
   color: white;
   background-color: transparent;
