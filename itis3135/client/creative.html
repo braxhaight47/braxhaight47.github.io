@@ -7,30 +7,32 @@
     </head>
     <!-- Multiple Pages Start Here (Bodies) -->
     <body onload="show('design');">
-        <div data-include="components/header.html"></div>
-        <div id="switchHeader">
-            <a href="#" onclick="show('design');">Design |</a>
-            <a href="#" onclick="show('creative');">Creative</a>
-        </div>
-        <!-- Design Page -->
-        <div id="design" class="target">
-            <h2 class="curveTop">Design Page</h2>
-            <button type="button" onclick="designer()">Submit</button>
-            <button type="button" onclick="reload()">Reset</button>
-            <label for="designerInfo">Write your HTML below:</label>
-            <br>
-            <textarea id="designerInfo" name="designerInfo" rows="16" cols="140">
-                Enter html here...
-            </textarea>
-            <br>
-        </div>
-        <!-- Creative Page -->
-        <div id="creative" class="target">
-            <h2 class="curveTop">Creative Page</h2>
-            <div id="contentSpace">
-                <p>Content Written Will Be Displayed Here!</p>
+        <main>
+            <div data-include="components/header.html"></div>
+            <div id="switchHeader">
+                <a href="#" onclick="show('design');">Design |</a>
+                <a href="#" onclick="show('creative');">Creative</a>
             </div>
-        </div>
+            <!-- Design Page -->
+            <div id="design" class="target">
+                <h2 class="curveTop">Design Page</h2>
+                <button type="button" onclick="designer()">Submit</button>
+                <button type="button" onclick="reload()">Reset</button>
+                <label for="designerInfo">Write your HTML below:</label>
+                <br>
+                <textarea id="designerInfo" name="designerInfo" rows="16" cols="140">
+                    Enter html here...
+                </textarea>
+                <br>
+            </div>
+            <!-- Creative Page -->
+            <div id="creative" class="target">
+                <h2 class="curveTop">Creative Page</h2>
+                <div id="contentSpace">
+                    <p>Content Written Will Be Displayed Here!</p>
+                </div>
+            </div>
+        </main>
         <div data-include="components/footer.html"></div>
         <script src="scripts/HTMLInclude.min.js"></script>
         <script src="scripts/functions.js"></script>
