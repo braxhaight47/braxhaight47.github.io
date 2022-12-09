@@ -10,7 +10,9 @@
         <main class="backColor2">
         <h2 class="curveTop">CSS and Javascript Tutorial</h2>
         <h3 id="colorsForCSSGUIDE">Welcome to the CSS/JS tutorial by Blissful Hippo!</h3>
-            <p class="center">Try out this guide on the creative tab -> <a href="creative.html">Creative</a></p><br>
+            <p>This tutorial will walk through how to do the CSS and Javascript for the website started on the previous tutorial ( <a href="guideHTML.html">Previous Tutorial</a>).</p>
+            <p>This portion can either be added in as internal style/script or using an external style/scirpt page, however if using the creative tab it is important to note it must be done internally.</p>
+            <p class="center">Try out this tutorial on the creative tab -> <a href="creative.html">Creative</a></p><br>
 
             <h2>CSS Tutorial</h2>
               <p>CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the look and formatting of a document written in a markup language.</p>
@@ -18,7 +20,15 @@
               <p>To use CSS, you need to create a stylesheet and link it to your HTML file. You can do this by adding a `<link>` element in the `<head>` of your HTML file, with the `href` attribute set to the URL of your stylesheet file:</p>
               <pre>
                 &lt;link rel="stylesheet" href="styles.css"&gt;
-            </pre>
+              </pre>
+              <p>The other way to do CSS is by using internal style tags at the top of your document. This can be done by placing style tags in the head tag.</p>
+              <pre>
+                &lt;head&gt;
+                &lt;style&gt;
+                    "content"
+                &lt;/style&gt;
+                &lt;/head&gt;
+              </pre>
               <p>Once you have linked your stylesheet to your HTML file, you can add CSS rules to it to style your HTML elements. A CSS rule has two parts: a selector, which specifies the HTML element(s) to be styled, and a declaration block, which contains one or more declarations that specify the styles to be applied to the selected element(s). Each declaration consists of a property and a value, separated by a colon:</p>
               <pre>
                 selector {
