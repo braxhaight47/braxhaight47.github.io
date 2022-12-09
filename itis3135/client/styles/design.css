@@ -96,6 +96,7 @@ footer {
 }
 .footerBGC {
     background-color:#5c5c4d;
+    font-size: 15px;
 }
 .curveTop {
     border-top-left-radius: 10px;
