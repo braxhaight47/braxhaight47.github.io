@@ -10,14 +10,14 @@
         <main class="backColor2">
         <h2 class="curveTop">CSS and Javascript Tutorial</h2>
         <h3 id="colorsForCSSGUIDE">Welcome to the CSS/JS tutorial by Blissful Hippo!</h3>
-            <p>This tutorial will walk through how to do the CSS and Javascript for the website started on the previous tutorial ( <a href="guideHTML.html">Previous Tutorial</a>).</p>
+            <p>This tutorial will walk through how to do the CSS and Javascript for the website started on the previous tutorial (<a href="guideHTML.html">Previous Tutorial</a>).</p>
             <p>This portion can either be added in as internal style/script or using an external style/scirpt page, however if using the creative tab it is important to note it must be done internally.</p>
             <p class="center">Try out this tutorial on the creative tab -> <a href="creative.html">Creative</a></p><br>
 
             <h2>CSS Tutorial</h2>
               <p>CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the look and formatting of a document written in a markup language.</p>
               <h2>How do I use CSS?</h2>
-              <p>To use CSS, you need to create a stylesheet and link it to your HTML file. You can do this by adding a `<link>` element in the `<head>` of your HTML file, with the `href` attribute set to the URL of your stylesheet file:</p>
+              <p>To use CSS, you need to create a stylesheet and link it to your HTML file. You can do this by adding a `&lt;link&gt;` element in the `&lt;head&gt;` of your HTML file, with the `href` attribute set to the URL of your stylesheet file:</p>
               <pre>
                 &lt;link rel="stylesheet" href="styles.css"&gt;
               </pre>
@@ -36,21 +36,46 @@
                   property: value;
                 }
             </pre>
-              <h2>Examples</h2>
-              <p>Here are some examples of CSS rules that you can use to style your HTML elements:</p>
-              <pre>
-                h1 {
-                  color: blue;
-                  font-size: 24px;
-                }
-                p {
-                  font-family: Arial;
-                  font-size: 14px;
-                }
-                a:link {
-                  color: red;
-                }
+            <p>Another important portion of CSS is the ability to create classes or ids to target groups or individual elements. Essentially there is a way to create targeted rules, the first of which is classes. Classes will apply to a group of elements with the same class meaning they are ideal if there are multiple elements that need to share similar properities. On the other hand, ids are only able to be used for one element and therefore target a single specific element.</p>
+            <p>To create a class, the dot selector is used as shown below.</p>
+            <pre>
+              .class_name {
+                property: value;
+                property: value;
+              }
             </pre>
+            <p>To create an id, the # selector is used as shown below.</p>
+            <pre>
+              #id_name {
+                property: value;
+                property: value;
+              }
+            </pre>
+            <p>To apply these to the desired elements, the class or id must be declared in the HTML portion as shown below.</p>
+            <pre>
+                &lt;element class="class_name" id="id_name"&gt;&lt;/element&gt;
+            </pre>
+              <h2>Examples</h2>
+              <p>Here are some examples of CSS rules that you can use to style your HTML elements for the webiste from the HTML tutorial:</p>
+              <pre>
+                  &lt;style&gt;
+                      h1 {text-align: center;
+                       color: #301934;
+                      }
+                      li {
+                       color: #301934;
+                      }
+                      ol {
+                       color: #301934;
+                      }
+                      p {color: #301934;}
+                      .colorBackground {
+                      background-color: #CBC3E3;
+                      padding: 5px;
+                      }
+                  &lt;/style&gt;
+            </pre>
+            <p>The element styles will change the color and format of the elements themselves for the entire website, and the colorBackground class can be applied to the div element to give the entire 'website' a different background color.</p>
             <h2>Learn to Use JavaScript</h2>
              <p>Welcome to our website that teaches people how to use JavaScript! JavaScript is a popular programming language that is widely used to create interactive websites and applications.</p>
              <h2>Getting Started</h2>

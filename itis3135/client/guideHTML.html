@@ -18,11 +18,57 @@
                 <div>
                   <p>HTML, or HyperText Markup Language, is the standard language for creating web pages and web applications.</p>
                   <p>It consists of a set of tags and attributes that define the structure and content of a web page, such as headings, paragraphs, links, images, and more.</p>
+                  <p>By combining these tags the structure of a website is created and can be filled with content.</p>
+                  <p>THe HTML is only the first step as stated before, HTML is simply the structure and content- not the design portion.</p>
+                  <p>The design of a website stems from that sites CSS which is either internal (Written in the html) or external (Written in an outside file that needs to be linked).</p>
+                  <p>Besides design, most websites typically have other functions that they can preform that are more complicated than HTML can do- which is where Javascript comes in.</p>
+                  <p>Just like CSS, Javascript can be internal or external, but instead of design- Javascript allows many things to be done such as how this portion of the guide is set up to expand each section individually.</p>
+                  <p>Putting all of these peices together creates an ideal website! The following sections of this guide will detail how to construct the HTML portion.</p>
                 </div>
 
                 <h3>Section 2: Basic HTML tags</h3>
                 <div>
                   <p>Here are some of the most common HTML tags:</p>
+                  <ul>
+                    <li><code>&lt;p&gt;</code> - defines a paragraph of text</li>
+                    <li><code>&lt;a&gt;</code> - defines a hyperlink to another web page or location</li>
+                    <li><code>&lt;img&gt;</code> - defines an image on the page</li>
+                    <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> - define headings of different sizes</li>
+                    <li><code>&lt;div&gt;</code> - defines a division or section of the page</li>
+                    <li><code>&lt;span&gt;</code> - defines a span of inline text</li>
+                  </ul>
+                </div>
+                <h3>Section 3: Basic Structure</h3>
+                <div>
+                  <p>All websites have to have a simlar broad structure in order to have HTML understand how to format the website properly.</p>
+                  <p>That format is a template for website design and is as follows:</p>
+                  <p>
+                  <code>&lt;!DOCTYPE html&gt;</code> - Defines that this whole page will be in html. <br>
+                  <code>&lt;html lang="en"&gt;</code> - Defines that this website will be in English and starts the portion of code that is html.<br>
+                      <code>&lt;head&gt;</code> - Defines the head of the website, which is where all external links (CSS sheets or Scipts- explained more in the CSS/JS Tutorial Page) are placed as well as the title.<br>
+                          <code>&lt;title&gt;</code> Title of Website <code>&lt;/title&gt;</code> - Defines what the title of the website will be (The portion that is in the tab on the browser).<br>
+                          <code>&lt;link rel="stylesheet" type="text/css" href="name_of_style_sheet.css"&gt;</code> - This is where the link to an external style sheet will go.<br>
+                          <code>&lt;script src="name_of_script.js"&gt;</code><code>&lt;script&gt;</code> - This is where the link to an external script will go.<br>
+                      <code>&lt;/head&gt;</code> - Closes the head tag.<br>
+                      <code>&lt;body&gt;</code> - Defines the body, or content portion, of the website.<br>
+                          <code>&lt;header&gt;</code> - Defines the header, or the top/navigation portion, of the website.<br>
+                              <code>&lt;h1&gt;</code>Heading of Website<code>&lt;/h1&gt;</code> - Defines the heading of the website, such as this websites is 'How to Create a Hippo Themed Website'.<br>
+                              <code>&lt;nav&gt;</code> - Defines the navigation bar of a website if there are multiple pages.<br>
+                              <code>&lt;/nav&gt;</code> - Closes the navigation tag.<br>
+                          <code>&lt;/header&gt;</code> - Closes the header tag.<br>
+
+                          <code>&lt;main&gt;</code> - Defines the start of all the content of the website such as this very line.<br>
+                          <code>&lt;/main&gt;</code> - Closes the main tag.<br>
+
+                          <code>&lt;footer&gt;</code> - Defines the footer, or the portion that is at the bottom of the website, such at the area that has the link to Haight Enterprise on this page.<br>
+                          <code>&lt;/footer&gt;</code> - Closes the footer tag.<br>
+                      <code>&lt;/body&gt;</code> - Closes the body tag.<br>
+                  <code>&lt;/html&gt;</code> - Closes the initial html tag.<br>
+                  </p>
+                </div>
+                <h3>Section 4: Applying the tags</h3>
+                <div>
+                  <p>Now it is time to try applying some of these tags to create the format of a website.</p>
                   <ul>
                     <li><code>&lt;p&gt;</code> - defines a paragraph of text</li>
                     <li><code>&lt;a&gt;</code> - defines a hyperlink to another web page or location</li>

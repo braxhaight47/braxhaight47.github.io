@@ -37,7 +37,31 @@ h1 {
   margin-top: 5px;
   color: rgb(255,255,255);
 }
+.h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: rgb(255,255,255);
+}
 h2 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: white;
+  background-color: #5c5c4d;
+  width: 100%;
+  text-align: center;
+}
+#DesignStay {
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: white;
+  background-color: #5c5c4d;
+  width: 100%;
+  text-align: center;
+}
+#CreativeStay {
   font-size: 25px;
   font-weight: normal;
   margin-top: 5px;
@@ -113,10 +137,25 @@ figcaption {
     justify-content: center;
     text-align: center;
 }
+label {
+    color: #5c5c4d;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 15px;
+}
 p {
     color: #5c5c4d;
     font-size: 20px;
     font-weight: normal;
+    padding: 15px;
+}
+.p {
+    color: #5c5c4d;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 15px;
+}
+button {
     padding: 15px;
 }
 .backColor {
